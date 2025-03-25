@@ -18,6 +18,8 @@ jobs:
 
       - name: Fetch PR’s HEAD for testing
         run: git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge
+      
+      - run: echo '=> ${{ env.THIS_IS_A_TEST }}'
 
       - name: 'Show ENV'
         run: env
