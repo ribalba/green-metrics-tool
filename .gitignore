@@ -1,4 +1,4 @@
-.DS_Store
+.DS_Store2
 __pycache__
 /config.yml
 /docker/nginx/api.conf
