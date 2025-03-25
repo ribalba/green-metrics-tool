@@ -1,5 +1,4 @@
 #!/bin/bash
-set -euo pipefail
 
 echo "Please note that this script does not remove pre-requisites like gcc, docker, curl etc. as it does not want to alter the system state"
 
